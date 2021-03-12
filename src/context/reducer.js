@@ -10,8 +10,6 @@ const initialState = {
 function reducer(state = initialState, action) {
   switch (action.type) {
     case "INCREASE":
-      // console.log(action.payload);
-      // console.log(state.item);
       return update(state, {
         item: {
           [action.payload.index]: {
@@ -48,19 +46,15 @@ function reducer(state = initialState, action) {
         ),
       };
     case "ASCENDING":
-      console.log("1", state.item);
       const increase = state.item.slice().sort(function (a, b) {
         return a.points - b.points;
       });
-      console.log("2", increase);
       state.item = increase;
       return { ...state };
     case "DESCENDING":
-      console.log("1", state.item);
       const decrease = state.item.slice().sort(function (a, b) {
         return b.points - a.points;
       });
-      console.log("2", decrease);
       state.item = decrease;
       return { ...state };
     default:
