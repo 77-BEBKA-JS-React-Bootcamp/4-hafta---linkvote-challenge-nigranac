@@ -1,0 +1,27 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(204, 197, 197);
+  width: 9rem;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+  p {
+    padding-right: 1rem;
+  }
+  #click {
+    font-size: 1rem;
+  }
+}
+
+#most {
+  width: 9rem;
+}
+#less {
+  width: 9rem;
+}
+
+#click:hover #most {
+  display: none;
+}

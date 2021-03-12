@@ -1,0 +1,38 @@
+.addLink-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+
+  .addLink-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .link-box {
+      display: flex;
+      flex-direction: column;
+      #newLink {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0;
+        margin-top: 2rem;
+      }
+      .input {
+        width: 14rem;
+      }
+    }
+    #add {
+      width: 5rem;
+      margin-top: 3rem;
+      margin-left: 6rem;
+      height: 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: wheat;
+      background-color: black;
+      border-radius: 2rem;
+      outline: none;
+    }
+  }
+}

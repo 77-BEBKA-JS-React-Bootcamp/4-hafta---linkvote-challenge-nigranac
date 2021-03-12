@@ -1,0 +1,24 @@
+.submit-container {
+  display: flex;
+  flex-direction: row;
+  width: 24rem;
+  height: 5rem;
+  background-color: rgb(187, 183, 183);
+  padding: 0.5rem;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-bottom-width: 1rem;
+  border-bottom: solid gray;
+
+  button {
+    width: 8rem;
+    height: auto;
+    font-size: 4rem;
+  }
+  p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 4rem;
+  }
+}

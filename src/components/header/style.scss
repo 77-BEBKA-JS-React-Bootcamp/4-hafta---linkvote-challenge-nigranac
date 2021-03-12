@@ -1,0 +1,32 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom-width: 1rem;
+  border-bottom-style: groove;
+  .header-first {
+    font-size: 2rem;
+    color: gray;
+    font-weight: bold;
+    span {
+      color: black;
+    }
+  }
+  .header-second {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    #vote {
+      color: gray;
+    }
+    span {
+      color: black;
+      font-weight: 400;
+    }
+  }
+
+  .line {
+    display: inline-block;
+  }
+}
